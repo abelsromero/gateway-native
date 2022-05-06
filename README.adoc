@@ -1,0 +1,38 @@
+= Spring Cloud Gateway Native Demo
+
+== Requirements
+
+One of:
+
+* GraalVM with native-image installed (`gu install native-image`)
+* Docker
+
+== Build & Run
+
+.Binary build
+ $ ./gradlew nativeCompile
+ $ ./build/native/nativeCompile/gateway-native
+
+.K8s deployment
+ See ./scripts/build-and-deploy.sh
+
+
+// == Test
+
+// To be done when native compilation works
+
+== Notes
+
+=== Build times
+
+// sysctl -a | grep brand
+MacBookPro (i9-9980HK CPU @ 2.40GHz)
+
+[horizontal]
+Binary:: ~3m
+Docker image:: 3m ±30s
+
+
+== TODO
+
+* Does TLS work?
