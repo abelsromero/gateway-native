@@ -1,0 +1,37 @@
+management:
+  endpoint:
+    health:
+      show-details: when_authorized
+    gateway:
+      enabled: true
+    metrics:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "gateway,health,info,conditions,configprops,metrics,prometheus"
+  server:
+    port: 8090
+  metrics:
+    export:
+      wavefront:
+        enabled: false
+      prometheus:
+        enabled: true
+
+spring:
+  cloud:
+    gateway:
+      filter:
+        token-relay:
+          enabled: false
+      actuator:
+        verbose:
+          enabled: false
+      routes:
+        - id: getHttpbin
+          uri: https://httpbin.org
+          predicates:
+            - Path=/get/**
+          filters:
+            - StripPrefix=1
