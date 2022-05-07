@@ -9,14 +9,16 @@ One of:
 
 == Build & Run
 
-.Binary build
+=== OS native build
+
  $ ./gradlew nativeCompile
  $ ./build/native/nativeCompile/gateway-native
 
-.K8s deployment
- See ./scripts/build-and-deploy.sh
+=== K8s deployment
 
-##
+Run `./scripts/build-and-deploy.sh ${REGISTRY_HOST}` to build, push and deploy in real cluster,
+or just `./scripts/build-and-deploy.sh` to deploy in local https://kind.sigs.k8s.io/[KinD] if available
+
 // == Test
 
 // To be done when native compilation works
