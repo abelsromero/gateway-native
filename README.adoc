@@ -16,7 +16,7 @@ One of:
 .K8s deployment
  See ./scripts/build-and-deploy.sh
 
-
+##
 // == Test
 
 // To be done when native compilation works
@@ -26,12 +26,19 @@ One of:
 === Build times
 
 // sysctl -a | grep brand
-MacBookPro (i9-9980HK CPU @ 2.40GHz)
+MacBookPro (i9-9980HK, 32GB)
 
 [horizontal]
 Binary:: ~3m
 Docker image:: 3m ±30s
 
+Linux (AMD 3700X, 32GB@3466 MT/s)
+
+[horizontal]
+// 10 samples
+Binary:: 1m 12s ±3s
+// 16 samples
+Docker image:: 1m 39s ±4s 
 
 == TODO
 
