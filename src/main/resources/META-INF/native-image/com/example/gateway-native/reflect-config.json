@@ -1,0 +1,521 @@
+[
+  {
+    "name": "com.example.demo.GatewayNativeApplication",
+    "methods": [
+      {
+        "name": "main",
+        "parameterTypes": [
+          "java.lang.String[]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.el.ExpressionFactoryImpl",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForCollection",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.hibernate.validator.internal.engine.AbstractConfigurationImpl",
+    "methods": [
+      {
+        "name": "externalClassLoader",
+        "parameterTypes": [
+          "java.lang.ClassLoader"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.hibernate.validator.internal.engine.ConfigurationImpl"
+  },
+  {
+    "name": "org.hibernate.validator.internal.util.logging.Log_$logger",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.jboss.logging.Logger"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.hibernate.validator.internal.util.logging.Messages_$bundle",
+    "fields": [
+      {
+        "name": "INSTANCE"
+      }
+    ]
+  },
+  {
+    "name": "org.reactivestreams.Publisher"
+  },
+  {
+    "name": "org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.cloud.autoconfigure.LifecycleMvcEndpointAutoConfiguration",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.cloud.bootstrap.encrypt.DecryptEnvironmentPostProcessor",
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.cloud.bootstrap.encrypt.KeyProperties",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.cloud.bootstrap.encrypt.RsaProperties",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor$MappingsProvider",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.cloud.commons.util.InetUtilsProperties",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.cloud.commons.util.UtilAutoConfiguration",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.cloud.gateway.actuate.AbstractGatewayControllerEndpoint",
+    "queryAllDeclaredMethods": true,
+    "queriedMethods": [
+      {
+        "name": "combinedfilters",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "delete",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "globalfilters",
+        "parameterTypes": []
+      },
+      {
+        "name": "refresh",
+        "parameterTypes": []
+      },
+      {
+        "name": "routefilers",
+        "parameterTypes": []
+      },
+      {
+        "name": "routepredicates",
+        "parameterTypes": []
+      },
+      {
+        "name": "save",
+        "parameterTypes": [
+          "java.lang.String",
+          "org.springframework.cloud.gateway.route.RouteDefinition"
+        ]
+      },
+      {
+        "name": "setApplicationEventPublisher",
+        "parameterTypes": [
+          "org.springframework.context.ApplicationEventPublisher"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.cloud.gateway.actuate.GatewayLegacyControllerEndpoint",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.cloud.gateway.config.GatewayAutoConfiguration",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.cloud.gateway.config.GatewayAutoConfiguration$GatewayActuatorConfiguration",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.cloud.gateway.config.GatewayAutoConfiguration$NettyConfiguration",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.cloud.gateway.config.GatewayEnvironmentPostProcessor",
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.cloud.gateway.config.GatewayLoadBalancerProperties",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.cloud.gateway.config.GatewayMetricsAutoConfiguration",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.cloud.gateway.config.GatewayMetricsProperties",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.cloud.gateway.config.GatewayNoLoadBalancerClientAutoConfiguration",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.cloud.gateway.config.GatewayProperties",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "getRoutes",
+        "parameterTypes": []
+      },
+      {
+        "name": "setRoutes",
+        "parameterTypes": [
+          "java.util.List"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.cloud.gateway.config.GlobalCorsProperties",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.cloud.gateway.config.HttpClientProperties",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "getMaxHeaderSize",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMaxInitialLineLength",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.cloud.gateway.config.MaxDataSizeValidator",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.cloud.gateway.config.conditional.ConditionalOnEnabledFilter",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "value",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.cloud.gateway.config.conditional.ConditionalOnEnabledGlobalFilter",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "value",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.cloud.gateway.config.conditional.ConditionalOnEnabledPredicate",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "value",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.cloud.gateway.discovery.DiscoveryLocatorProperties",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.cloud.gateway.discovery.GatewayDiscoveryClientAutoConfiguration",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.cloud.gateway.filter.FilterDefinition",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.cloud.gateway.filter.factory.AbstractGatewayFilterFactory",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.cloud.gateway.filter.factory.SecureHeadersProperties",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.cloud.gateway.filter.factory.SetStatusGatewayFilterFactory",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.cloud.gateway.filter.factory.StripPrefixGatewayFilterFactory$Config",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "setParts",
+        "parameterTypes": [
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.cloud.gateway.filter.headers.RemoveHopByHopHeadersFilter",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.cloud.gateway.filter.headers.XForwardedHeadersFilter",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.cloud.gateway.handler.predicate.PathRoutePredicateFactory$Config",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "getPatterns",
+        "parameterTypes": []
+      },
+      {
+        "name": "setPatterns",
+        "parameterTypes": [
+          "java.util.List"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.cloud.gateway.handler.predicate.PredicateDefinition",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.cloud.gateway.route.RouteDefinition",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFilters",
+        "parameterTypes": []
+      },
+      {
+        "name": "getPredicates",
+        "parameterTypes": []
+      },
+      {
+        "name": "setFilters",
+        "parameterTypes": [
+          "java.util.List"
+        ]
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setPredicates",
+        "parameterTypes": [
+          "java.util.List"
+        ]
+      },
+      {
+        "name": "setUri",
+        "parameterTypes": [
+          "java.net.URI"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.cloud.gateway.support.AbstractConfigurable",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.cloud.util.random.CachedRandomPropertySourceEnvironmentPostProcessor",
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.core.DecoratingProxy",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.core.annotation.AliasFor",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "annotation",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.core.annotation.Order",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.jmx.export.annotation.ManagedResource",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.security.crypto.encrypt.TextEncryptor"
+  },
+  {
+    "name": "org.springframework.security.rsa.crypto.RsaSecretEncryptor"
+  },
+  {
+    "name": "org.springframework.stereotype.Component",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.stereotype.Indexed",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.validation.annotation.Validated",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "value",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  }
+]

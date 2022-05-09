@@ -34,4 +34,10 @@ spring:
           predicates:
             - Path=/get/**
           filters:
-            - StripPrefix=1
+            - StripPrefix=0
+#logging:
+#  level:
+#    org:
+#      springframework:
+#        cloud:
+#          gateway: TRACE
