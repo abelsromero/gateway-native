@@ -11,6 +11,10 @@
     ]
   },
   {
+    "name": "com.example.demo.RouteConfiguration",
+    "queryAllDeclaredMethods": true
+  },
+  {
     "name": "org.apache.el.ExpressionFactoryImpl",
     "methods": [
       {
@@ -333,6 +337,24 @@
     "queryAllDeclaredConstructors": true
   },
   {
+    "name": "org.springframework.cloud.gateway.filter.factory.SetRequestHostHeaderGatewayFilterFactory$Config",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "setHost",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
     "name": "org.springframework.cloud.gateway.filter.factory.SetStatusGatewayFilterFactory",
     "allDeclaredFields": true,
     "queryAllDeclaredMethods": true,
@@ -357,6 +379,15 @@
     ]
   },
   {
+    "name": "org.springframework.cloud.gateway.filter.factory.rewrite.ModifyResponseBodyGatewayFilterFactory$Config",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
     "name": "org.springframework.cloud.gateway.filter.headers.RemoveHopByHopHeadersFilter",
     "allDeclaredFields": true,
     "queryAllDeclaredMethods": true,
@@ -367,6 +398,24 @@
     "allDeclaredFields": true,
     "queryAllDeclaredMethods": true,
     "queryAllDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.cloud.gateway.handler.predicate.MethodRoutePredicateFactory$Config",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "setMethods",
+        "parameterTypes": [
+          "org.springframework.http.HttpMethod[]"
+        ]
+      }
+    ]
   },
   {
     "name": "org.springframework.cloud.gateway.handler.predicate.PathRoutePredicateFactory$Config",
@@ -517,5 +566,12 @@
         "parameterTypes": []
       }
     ]
+  },
+  {
+    "name":"java.lang.Object",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "queryAllDeclaredConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":[] }]
   }
 ]

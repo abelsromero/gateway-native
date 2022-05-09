@@ -32,9 +32,12 @@ spring:
         - id: getHttpbin
           uri: https://httpbin.org
           predicates:
-            - Path=/get/**
+            - Method=GET,POST
+            - Path=/httpbin/**
           filters:
-            - StripPrefix=0
+            - PreserveHostHeader
+            - StripPrefix=1
+            - SetRequestHostHeader=org.test.scg
 #logging:
 #  level:
 #    org:
