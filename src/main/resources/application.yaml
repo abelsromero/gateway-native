@@ -30,10 +30,19 @@ spring:
           enabled: false
       routes:
         - id: getHttpbin
-          uri: https://httpbin.org
+          uri: http://httpbin-svc.test.svc
           predicates:
             - Method=GET,POST
             - Path=/httpbin/**
+          filters:
+            - PreserveHostHeader
+            - StripPrefix=1
+            - SetRequestHostHeader=org.test.scg
+        - id: getRandom
+          uri: http://perf-upstream-api-svc.test.svc
+          predicates:
+            - Method=GET,POST
+            - Path=/random/**
           filters:
             - PreserveHostHeader
             - StripPrefix=1

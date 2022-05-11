@@ -29,7 +29,7 @@ public class RouteConfiguration {
 											  (exchange, body) -> {
 												  logger.debug(body);
 												  return Mono.just(body.toUpperCase());
-											  })).uri("https://httpbin.org"))
+											  })).uri("http://perf-upstream-api-svc.test.svc"))
 					  .build();
 	}
 }
