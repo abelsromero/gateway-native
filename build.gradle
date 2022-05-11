@@ -1,5 +1,3 @@
-import org.springframework.aot.gradle.dsl.AotMode
-
 plugins {
 	id 'org.springframework.boot' version '2.6.7'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
@@ -40,9 +38,4 @@ tasks.named('bootBuildImage') {
 	builder = 'paketobuildpacks/builder:tiny'
 	imageName = "${project.properties.registry}/${project.name}:${project.version}"
 	environment = ['BP_NATIVE_IMAGE': 'true']
-}
-
-// TODO: validate if this actually generates a different jar. At least aot tasks are run.
-springAot {
-	mode = AotMode.NATIVE
 }
