@@ -37,10 +37,10 @@ Docker image:: 3m ±30s
 Linux (AMD 3700X, 32GB@3466 MT/s)
 
 [horizontal]
-// 10 samples
-Binary:: 1m 12s ±3s
 // 16 samples
-Docker image:: 1m 39s ±4s 
+Binary:: 1m 9s ±1.0s
+// 16 samples
+Docker image:: 1m 24s ±1.9s
 
 == TODO
 
