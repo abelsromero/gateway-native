@@ -16,6 +16,12 @@ public class RouteConfiguration {
 
 	private static final Logger logger = LoggerFactory.getLogger(RouteConfiguration.class);
 
+	// Without this and no reflect-config.json, we get error on start:
+	//   Failed to bind properties under 'spring.cloud.gateway.routes[0].filters[0]' to org.springframework.cloud.gateway.filter.FilterDefinition:
+	//    Reason: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [org.springframework.cloud.gateway.filter.FilterDefinition]
+	//
+	// With this code and no reflect-config.json, we get error on start:
+	//     Native reflection configuration for org.springframework.cloud.gateway.handler.predicate.PathRoutePredicateFactory$Config.<init>() is missing.
 	@Bean
 	public RouteLocator routes(RouteLocatorBuilder builder) {
 		return builder.routes()
