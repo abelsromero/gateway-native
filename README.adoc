@@ -19,8 +19,12 @@ One of:
 Run `./scripts/build-and-deploy.sh ${REGISTRY_HOST}` to build, push and deploy in real cluster,
 or just `./scripts/build-and-deploy.sh` to deploy in local https://kind.sigs.k8s.io/[KinD] if available
 
-// == Test
 
+== Fixing issues
+
+
+// == Test
+java -agentlib:native-image-agent=config-output-dir="$(pwd)/config-dir" -jar build/libs/gateway-native-0.0.1-SNAPSHOT.jar
 // To be done when native compilation works
 
 == Notes

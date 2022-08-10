@@ -1,0 +1,16 @@
+[
+  {
+    "name": "org.springframework.cloud.gateway.filter.FilterDefinition",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  }
+]

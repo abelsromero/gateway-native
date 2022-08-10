@@ -1,0 +1,25 @@
+== Fixing Natice SCG
+
+----
+Description:
+
+Failed to bind properties under 'spring.cloud.gateway.routes[0].filters[0]' to org.springframework.cloud.gateway.filter.FilterDefinition:
+
+    Reason: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [org.springframework.cloud.gateway.filter.FilterDefinition]
+
+Action:
+----
+
+Makes think that Filters
+
+* Running agent confirms the filters and predicates are picked up in reflection.
+But relfect has 6268 lines...too much
+
+TODO: run agent with aot profile
+
+* Analizing original code, we see String are converted into FilterDefinition which uses automatic Spring's ObjectToObjectConverter
+
+
+* Start testing adding used filters and predicates
+* Tested creating a new String ->FilterDefinition converter to overide the ObjectToObject, but debugging we see there's a first pass in
+GenericConversionService in which the new converter is not there and the generic is cached. A second pass shows the new and other converters.
